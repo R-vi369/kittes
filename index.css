@@ -165,3 +165,16 @@ background-color: rgb(140, 116, 116);
     /* font-size: 600px; */
 
    }
+
+
+   .icons .i1{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+   }
+   
+   .icons .i2{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+   }
