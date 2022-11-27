@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+ Header .navbar {
+    position: sticky ;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .4rem 4rem;
+    background: black;
+    box-shadow: 5px  5px 20px  rgb(3, 1, 1);
+    }
+
+
+.navbar .navbar-brand{
+    color:rgb(236, 243, 30) !important ;
+    font-size: 16px;
+}
+
+.navbar .navbar-brand:hover{
+    font-size: 20px;
+    
+}
+
+#navbarNav .nav-item:hover{
+    border-bottom: 2px solid rgb(255, 243, 25);
+    font-size:19px ;
+
+}
+
+
+#navbarNav .btn-1{
+ border: 1px solid black;
+ border-radius: 10px;
+ padding: 4px;
+ color: black;
+ background: rgb(214, 214, 48) !important;
+ border-bottom: 1px solid yellowgreen;
+}
+
+
+
+#navbarNav .btn-1:hover{
+ color: rgb(255, 255, 255);
+ background: rgb(0, 0, 0) !important;
+
+}
+
+#navbarNav .btn-2{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    color: black;
+    background: rgb(214, 214, 48) !important;
+    border-bottom: 1px solid yellowgreen;
+   }
+   
+   
+   
+   #navbarNav .btn-2:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0) !important;
+   }
+
+
+
+   section{
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+   }
+
+   #home{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.3)), url("./images/carousel.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    box-shadow: 0px 1px 0px #ccc,
+    0px 2px 0px #ccc,
+    0px 3px 0px #ccc,
+    0px 4px 0px #ccc,
+    0px 5px 0px #ccc,
+    0px 6px 0px #ccc,
+    0px 7px 0px #ccc
+    ;
+  
+   }
+
+   #home h1{
+    font-size: 49px;
+    color: rgb(221, 221, 221);
+    letter-spacing: 2px;
+   }
+
+   #home p{
+    font-size: 50px;
+    color: rgb(205, 191, 191);
+    letter-spacing: 2px;
+   }
+
+   #about{
+
+    background: linear-gradient(to right,#36272d, #3c3335 100%);
+   }
+   #about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+   }
+
+   #about p{
+    color: white;
+   }
+
+   #row-img img{
+    margin-top: 50px;
+     border-radius: 50% ;
+     
+
+   }
+
+
+   #cute-kitties{
+background-color: rgb(140, 116, 116);
+   }
+   #cute-kitties h1{
+    color: white;
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: 3px;
+   }
+
+   #cute-kitties img{
+    width: 251px;
+    height: 245px;
+   }
+
+   .card{
+    height: 250px;
+    width: 250px;
+    background-color: grey !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                  inset 4px 4px 10px white
+    ;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    margin: 23px;
+    /* font-size: 600px; */
+
+   }
